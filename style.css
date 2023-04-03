@@ -1,0 +1,63 @@
+html, body {
+     height: 100%;
+     width: 100%;
+       background: #000;
+
+}
+ .link {
+     margin: 1vh;
+
+
+     cursor: pointer;
+    height: 5rem;
+     width: -moz-fit-content;
+     width: fit-content;
+      border-radius: 1vw 1vw 1vw 1vw;
+  
+
+}
+ .link .content {
+     background: #fff;
+     height: 15vh;
+     
+     border-radius: 1vw 1vw 1vw 1vw;
+
+     position: relative;
+}
+ .link .text {
+ position: relative;
+     
+  height: 8vh;
+     float: left;
+        border-radius: 0px .5vw .5vw 0px;
+     padding: 2.5vh;
+   margin: 1vh;
+   margin-left: 0px;
+   color: white;
+   background: #000;
+
+}
+ .link img {
+     position: relative;
+     width: 8vh;
+     height: 8vh;
+     float: left;
+        border-radius: .5vw 0px 0px .5vw;
+
+     padding: 2.5vh;
+     padding-right: 2.5vh;
+
+     padding-bottom: 2.5vh;
+     padding-top: 2.5vh;
+
+   margin: 1vh;
+   color: black;
+   background: #000;
+}
+ .link .text .title {
+     font-size: 3vw;
+}
+ .link .text .desc {
+     font-size: 1.5vw;
+}
+ 
